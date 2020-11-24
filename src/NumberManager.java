@@ -22,6 +22,6 @@ public class NumberManager {
             }
 
         }
-        System.out.println(sum+ "SUMM  нечетных цифр");
+        System.out.println(sum+ "Сумма нечетных цифр");
     }
 }
