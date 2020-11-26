@@ -16,7 +16,7 @@ public static void main(String[] args){
             sum+=x%10;
             x/=10;
         }
-        System.out.println("Cумма цифр числа -  " + sum + "порядковый номер -  " + i);
+        System.out.println("Cумма цифр числа -  " + sum + " порядковый номер -  " + i);
        if ( sum>max){
            max = sum;
            position = i;
