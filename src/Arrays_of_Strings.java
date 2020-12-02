@@ -17,7 +17,7 @@ public class Arrays_of_Strings{
         }
         int[] numbers= {32,41,56};
         int sum =0;
-        for(int number:numbers){//
+        for(int number:numbers){//для каждого элемента number типа int в массиве numbers выполняется то что в теле цикла
             sum = sum +number;
         }
         System.out.println();
