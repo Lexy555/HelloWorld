@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
-    Elochka.getPolElka();
+    FigurefromNumbers.getFifure();
     }
 }
 
