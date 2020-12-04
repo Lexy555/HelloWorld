@@ -12,11 +12,10 @@ public class TestElka {
             }
             a=a+2;
             c--;
-            System.out.println();
+            System.out.println("");
         }
-
+       System.out.println("Happy new year! Bitch!");
 
     }
     }
-
 
