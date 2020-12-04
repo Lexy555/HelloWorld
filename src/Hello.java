@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
-    FigurefromNumbers.getFifure();
+  TestElka.fullElka(20);
+
     }
 }
 
