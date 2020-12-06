@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
-  TestElka.fullElka(20);
+ // TestElka.fullElka(20);
+        ElkaVverhDnom.getPerevertisheEl();
 
     }
 }
