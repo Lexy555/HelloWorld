@@ -1,21 +1,20 @@
 public class TestElka {
-    public  static  void fullElka(int elkaSize){
-        int x = elkaSize;
-        int a=1;
-        int c = x/2;
-        for (int i=0;i<x/2;i++){
-            for(int b=c;b>0;b--){
+    public static void fullElka(int bradSize) {
+        int starsCount = 1;
+        int bradHeight = bradSize / 2;
+        for (int line = 0; line < bradSize / 2; line++) {
+            for (int spaces = bradHeight-1; spaces > 0; spaces--) {
                 System.out.print(" ");
             }
-            for (int d = a; d>0; d--){
+            for (int stars = starsCount; stars > 0; stars--) {
                 System.out.print("*");
             }
-            a=a+2;
-            c--;
+            starsCount = starsCount + 2;
+            bradHeight--;
             System.out.println("");
         }
-       System.out.println("Happy new year! Bitch!");
+        System.out.println("Happy new year! Bitch!");
 
     }
-    }
+}
 
