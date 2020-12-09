@@ -5,19 +5,9 @@ import java.util.Scanner;
 
 
 public class Hello {
-    public static void main(String[] args) {
-  //TestElka.fullElka(20);
-    //    ElkaVverhDnom.getPerevertisheEl();
-    // LetterS.getLetter();
-        LetterV.drawPattern(8);
-        System.out.println("\n\n");
-        LetterV.drawV(8);
-
+    public static void main(String[] args){
     }
 }
-
-
-
 
 
 
